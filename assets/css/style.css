@@ -1,0 +1,33 @@
+.tab-header {
+  background-color: gray;
+  border: 1px solid gray;
+}
+.tab-header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.tab-header ul .active-tab {
+  background-color: black;
+  color: white;
+}
+.tab-header ul li {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #afafaf;
+  transition: all 0.5s;
+}
+.tab-header ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid gray;
+}
+.tab-content .disp-none {
+  opacity: 0;
+  position: absolute;
+}
